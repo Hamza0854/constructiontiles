@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6,
 .h-display em {
     font-style: italic;
     font-weight: 300;
-    color: var(--ink);
+    color: #d9bb91;
 }
 
 .h-section {
@@ -371,12 +371,7 @@ h1, h2, h3, h4, h5, h6,
 
 .hero-overlay {
     position: absolute; inset: 0;
-    background: linear-gradient(
-        180deg,
-        rgba(20,17,13,0.05) 0%,
-        rgba(20,17,13,0.0) 40%,
-        rgba(20,17,13,0.45) 100%
-    );
+    background: linear-gradient(180deg, rgba(20, 17, 13, 0.05) 0%, rgb(14 14 13 / 52%) 40%, rgb(20 17 13 / 85%) 100%);
     pointer-events: none;
 }
 
@@ -666,7 +661,7 @@ h1, h2, h3, h4, h5, h6,
 
 .inspire-overlay {
     position: absolute; inset: 0;
-    background: linear-gradient(180deg, rgba(0,0,0,0.0) 50%, rgba(20,17,13,0.55) 100%);
+    background: linear-gradient(180deg, rgb(0 0 0 / 55%) 50%, rgba(20, 17, 13, 0.55) 100%);
     pointer-events: none;
 }
 
